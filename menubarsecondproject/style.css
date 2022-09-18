@@ -1,0 +1,26 @@
+.desktop ul li 
+{
+    float: left;
+    margin-left: 100px;
+}
+
+#menu 
+{
+    margin-left: 100px;
+    display: none;
+}
+.mobile ul li 
+{
+    display: none;
+}
+
+@media screen and (max-width:600px){
+    .desktop ul li 
+    {
+        display: none;
+    }
+    #menu 
+    {
+        display: block;
+    }
+}
