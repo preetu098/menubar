@@ -1,0 +1,26 @@
+@media screen and (max-width:375px){
+    body 
+    {
+        background-color: red;
+    }
+}
+@media screen and (max-width:414px){
+    body 
+    {
+        background-color: yellow;
+    }
+}
+
+@media screen and (max-width:390px) {
+    body 
+    {
+        background-color: brown;
+    }
+}
+
+@media screen and (min-width:1782px) {
+    body 
+    {
+        background-color: orange;
+    }
+}
